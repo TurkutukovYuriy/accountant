@@ -1,0 +1,11 @@
+Arguments: # Arguments list
+#Dictionaries, key=variable name, value=list of parameters(data type, range of values, default value)
+- rarity: [int, [1, 4], 1] #d4 quantity that role to calculate creation time, as well as the difficulty of creating
+- price: [int, [50, 50000], 75] #the market value of the item, determined by the master
+- efficiency: [float, [0.5, 1], 0.85] #monetary benefit when crafting items, compared to buying
+- modifier: [int, [0, 5], 0] #Martin's intelligence modifier, zero by default, because the branch is not upgraded
+- fine: 1.5 #fine difficulty constant, always the last item in the list
+...
+
+
+
